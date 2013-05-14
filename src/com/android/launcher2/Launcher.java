@@ -3860,6 +3860,8 @@ public final class Launcher extends Activity
                     }
                 }, mRestoreScreenOrientationDelay);
             }
+        } else {
+            setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_NOSENSOR);
         }
     }
 
